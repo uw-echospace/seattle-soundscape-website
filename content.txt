@@ -29,7 +29,6 @@
 [stats.4.value] 0
 [stats.4.label] hours of audio collected
 
-
 # --- Program Description
 [how.heading] AudioMoth Student Research Program
 [how.subhead] No experience needed!
@@ -68,7 +67,7 @@
 [rsvp.datesLabel] Session dates:
 [rsvp.datesText] Tuesday, November 5 at 6:30 PM and Thursday, November 10 at 6:30 PM in the eScience Institute Meeting Room
 [rsvp.button] Open the RSVP form
-[rsvp.buttonHref] https://forms.gle/REPLACE_ME
+[rsvp.buttonHref] https://forms.gle/Qru7MF1z5pFcWK7VA
 
 
 # --- Sponsors
