@@ -6,6 +6,9 @@
 # --- Top navigation bar
 [nav.orgName] Greater Seattle Soundscape Monitoring Project
 [nav.orgSub] ECHOSPACE GROUP, UNIVERSITY OF WASHINGTON
+[nav.home] Home
+[nav.results] Results
+[nav.login] Login
 
 
 # --- Hero
@@ -32,7 +35,8 @@
 # --- Program Description
 [how.heading] AudioMoth Student Research Program
 [how.subhead] No experience needed!
-[how.imageAlt] A researcher in gloves holding a small brown bat
+[how.imageAlt] A small brown bat in flight
+[how.imageCredit] Durham, Michael. “Little Brown Myotis (Myotis Lucifugus)” Bats Northwest. https://www.batsnorthwest.org/meet-washingtons-bats
 
 [how.step.1.title] Pick up your AudioMoth kit
 [how.step.1.body] Come to the start-up session to learn about the Greater Seattle Soundscape Monitoring Project, how to setup and deploy AudioMoth microphone units, and analysis tools we use!
@@ -60,6 +64,16 @@
 
 [faq.3.q] Who runs this program?
 [faq.3.a] The Greater Seattle Soundscape Monitoring Project is run by the Echospace Group. We study acoustic sensing in terrestrial and aquatic animals, as well as run projects using passive acoustic monitoring in the Union Bay Natural Area. You can learn more about [our projects here](https://uw-echospace.github.io/#projects).
+
+[faq.4.q] How can I get support?
+[faq.4.a] We host office hours once a month! We'll be able to assist with regular SD card swaps, technical issues, new equipment pickup, and answering any questions you may have. You can also come to learn more about the project, as we share some additional information exciting each month--everyone is invited!
+
+[faq.5.q] How do I upload my data?
+[faq.5.a] For all management-related tasks, log into our [webportal](#)! This is where you can upload data, request new SD cards, make appointments, stay up-to-date, and more.
+
+[faq.6.q] Who is this program available to?
+[faq.6.a] Currently, the Seattle Soundscape Monitoring Program is only available for University of Washington affiliates, including undergraduate and graduate students, faculty, and staff members. If you have an education-related request for our AudioMoths or you aren't at the University of Washington, please contact us at [seattle.soundscape.uw@gmail.com](mailto:seattle.soundscape.uw@gmail.com)!
+
 
 # --- RSVP
 [rsvp.heading] RSVP for the start-up session
@@ -91,7 +105,8 @@
 [footer.contactLinkHref] https://uw-echospace.github.io/
 [footer.contactLine2] Applied Physics Lab & eScience Institute,
 [footer.contactLine3] University of Washington
-[footer.contactEmail] soundscape.seattle@gmail.com
-[footer.contactEmailHref] mailto:soundscape.seattle@gmail.com
+[footer.contactEmail] seattle.soundscape.uw@gmail.com
+[footer.contactEmailHref] mailto:seattle.soundscape.uw@gmail.com
 
 [sticky.text] Greater Seattle Soundscape Monitoring Project
+[sticky.button] RSVP

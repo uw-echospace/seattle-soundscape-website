@@ -19,9 +19,14 @@
   <div class="wrap">
     <nav class="bar" aria-label="Primary">
       <a class="brand" href="#top">
-        <svg class="mark" viewBox="0 0 34 34" fill="none" aria-hidden="true" focusable="false"><circle cx="17" cy="17" r="16" stroke="#6a9bd1" stroke-width="1.5"/><path d="" stroke="#f6f4ea" stroke-width="2.8" stroke-linecap="round" fill="none"/></svg>
+        <img class="mark" src="assets/echospace_logo.jpg" alt="" aria-hidden="true">
         <span><b data-k="nav.orgName"></b><span data-k="nav.orgSub"></span></span>
       </a>
+      <ul class="nav-links">
+        <li><a href="/access/" aria-current="page" data-k="nav.login"></a></li>
+        <li><a href="/results/" aria-current="page" data-k="nav.results"></a></li>
+        <li><a href="#top" aria-current="page" data-k="nav.home"></a></li>
+      </ul>
     </nav>
 
     <div class="hero">
@@ -91,9 +96,10 @@
         </div>
       </div>
     </div>
-    <div class="how-image">
-      <img src="assets/bat_how_cropped.webp" data-k-alt="how.imageAlt" alt="A researcher in blue gloves holding a small brown bat">
-    </div>
+    <figure class="how-image">
+      <img src="assets/bat_flying_cutout.webp" data-k-alt="how.imageAlt" alt="">
+    </figure>
+    <p class="how-credit" data-k="how.imageCredit"></p>
   </section>
 
   <section class="mission" aria-labelledby="why-h">
@@ -156,14 +162,14 @@
       <div style="margin-top:8px;max-width:32ch" data-k="footer.tagline"></div>
     </div>
     <div class="cols">
-      <div><b data-k="footer.contactLabel">Contact</b><div><a data-k="footer.contactLinkText" data-k-href="footer.contactLinkHref" href="https://uw-echospace.github.io/" target="_blank" rel="noopener">Echospace Group</a>,<br><span data-k="footer.contactLine2">Applied Physics Lab &amp; eScience Institute,</span> <br><span data-k="footer.contactLine3">University of Washington</span></div><div><a data-k="footer.contactEmail" data-k-href="footer.contactEmailHref" href="mailto:soundscape.seattle@gmail.com">soundscape.seattle@gmail.com</a></div></div>
+      <div><b data-k="footer.contactLabel">Contact</b><div><a data-k="footer.contactLinkText" data-k-href="footer.contactLinkHref" href="https://uw-echospace.github.io/" target="_blank" rel="noopener">Echospace Group</a>,<br><span data-k="footer.contactLine2">Applied Physics Lab &amp; eScience Institute,</span> <br><span data-k="footer.contactLine3">University of Washington</span></div><div><a data-k="footer.contactEmail" data-k-href="footer.contactEmailHref" href="mailto:seattle.soundscape.uw@gmail.com">seattle.soundscape.uw@gmail.com</a></div></div>
     </div>
   </div>
 </footer>
 
 <div class="sticky" id="sticky" aria-hidden="true">
   <div data-k="sticky.text"></div>
-  <a class="btn btn-primary" href="#rsvp" tabindex="-1"></a>
+  <a class="btn btn-primary" href="#rsvp" tabindex="-1" data-k="sticky.button">RSVP</a>
 </div>
 
 <script src="content-loader.js" defer></script>
