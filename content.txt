@@ -62,24 +62,33 @@
 [faq.2.q] Do I need any background in bioacoustics, ecology, or computer science?
 [faq.2.a] No! We'll show you how to setup the AudioMoth, understand how it works, and provide an out-of-the-box app to analyze the data. However, if you have experience, you'll be able to dig deeper into the data as you wish!
 
-[faq.3.q] Who runs this program?
-[faq.3.a] The Greater Seattle Soundscape Monitoring Project is run by the Echospace Group. We study acoustic sensing in terrestrial and aquatic animals, as well as run projects using passive acoustic monitoring in the Union Bay Natural Area. You can learn more about [our projects here](https://uw-echospace.github.io/#projects).
+[faq.3.q] Where can I put my AudioMoth?
+[faq.3.a] You can adopt any location in the Greater Seattle or King County area (that includes Bellevue, Everett, Bainbridge Island, Federal Way, or anywhere nearby)! We can help you find a location or you can pick one that's convenient for you. Throughout your recording period, you'll be responsible for coming back to check-in on the location.
 
-[faq.4.q] How can I get support?
-[faq.4.a] We host office hours once a month! We'll be able to assist with regular SD card swaps, technical issues, new equipment pickup, and answering any questions you may have. You can also come to learn more about the project, as we share some additional information exciting each month--everyone is invited!
+[faq.4.q] Who runs this program?
+[faq.4.a] The Greater Seattle Soundscape Monitoring Project is run by the Echospace Group. We study acoustic sensing in terrestrial and aquatic animals, as well as run projects using passive acoustic monitoring in the Union Bay Natural Area. You can learn more about [our projects here](https://uw-echospace.github.io/#projects).
 
-[faq.5.q] How do I upload my data?
-[faq.5.a] For all management-related tasks, log into our [webportal](#)! This is where you can upload data, request new SD cards, make appointments, stay up-to-date, and more.
+[faq.5.q] How can I get help with my equipment or software if I need it?
+[faq.5.a] We host office hours once a month! We'll be able to assist with regular SD card swaps, technical issues, new equipment pickup, and answering any questions you may have. You can also come to learn more about the project, as we share some additional information exciting each month--everyone is invited! Generally, office hours are on weekday evenings, but we also offer 1-on-1 meetings if you can't make them or need support sooner. 
 
-[faq.6.q] Who is this program available to?
-[faq.6.a] Currently, the Seattle Soundscape Monitoring Program is only available for University of Washington affiliates, including undergraduate and graduate students, faculty, and staff members. If you have an education-related request for our AudioMoths or you aren't at the University of Washington, please contact us at [seattle.soundscape.uw@gmail.com](mailto:seattle.soundscape.uw@gmail.com)!
+[faq.6.q] How do I upload my data?
+[faq.6.a] For all management-related tasks, log into our [webportal](/login/)! This is where you can upload data, request new SD cards, make appointments, stay up-to-date, and more. While some analysis data will be uploaded through the webportal, the large file sizes of recordings make it necessary that we do also request SD cards be swapped in-person.
+
+[faq.7.q] Who is this program available to?
+[faq.7.a] Currently, the Seattle Soundscape Monitoring Program is only available for University of Washington affiliates, including undergraduate and graduate students, faculty, and staff members. If you have an education-related request for our AudioMoths or you aren't at the University of Washington, please contact us at [seattle.soundscape.uw@gmail.com](mailto:seattle.soundscape.uw@gmail.com)!
+
+[faq.8.q] Am I committed to recording for the entire quarter?
+[faq.8.a] If you'd prefer to not record during a busy time (for example, during midterms), you're free to skip a few weeks of recordings. If you know you won't be able to continue recording or you're not interested in the program anymore, feel free to drop off your equipment at office hours.
+
+[faq.9.q] Am I guaranteed an AudioMoth?
+[faq.9.a] We will try our best to make sure every participant has access to a recording kit. If demand exceeds capacity, we'll make sure to prioritize participants on the waitlist for future quarters.
 
 
 # --- RSVP
-[rsvp.heading] RSVP for the start-up session
-[rsvp.body] Save yourself a spot at one of our start-up sessions, where you'll pick up an AudioMoth and get started with collecting data.
+[rsvp.heading] RSVP for the onboarding session
+[rsvp.body] Save yourself a spot at one of our onboarding sessions, where you'll pick up an AudioMoth and get started with collecting data.
 [rsvp.datesLabel] Session dates:
-[rsvp.datesText] Tuesday, November 5 at 6:30 PM and Thursday, November 10 at 6:30 PM in the eScience Institute Meeting Room
+[rsvp.datesText] Thursday, November 5 at 6:30 PM and Tuesday, November 10 at 6:30 PM in the eScience Institute Meeting Room (Physics-Astronomy Tower)
 [rsvp.button] Open the RSVP form
 [rsvp.buttonHref] https://forms.gle/Qru7MF1z5pFcWK7VA
 

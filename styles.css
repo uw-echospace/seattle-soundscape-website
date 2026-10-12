@@ -115,6 +115,9 @@ section{padding:88px 0 0}
 .sponsor-row li{font-family:var(--serif);font-size:19px;font-weight:600;color:var(--soft);letter-spacing:-.005em}
 .sponsor-row img{max-height:90px;max-width:100%;width:auto;height:auto;display:block}
 
+.map-embed{margin:28px 0 0;border-radius:16px;overflow:hidden;height:420px;box-shadow:0 20px 44px -26px rgba(18,26,34,.35)}
+.map-embed iframe{width:100%;height:100%;display:block}
+
 footer{margin-top:80px;background:var(--conifer);color:#a7b0c0;padding:44px 0}
 .foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:flex-start;font-size:14px}
 .foot .fbrand{color:var(--cream);font-family:var(--serif);font-size:16px;font-weight:600}
