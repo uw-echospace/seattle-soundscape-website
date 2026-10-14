@@ -90,7 +90,7 @@
 [rsvp.datesLabel] Session dates:
 [rsvp.datesText] Thursday, November 5 at 6:30 PM and Tuesday, November 10 at 6:30 PM in the eScience Institute Meeting Room (Physics-Astronomy Tower)
 [rsvp.button] Open the RSVP form
-[rsvp.buttonHref] https://forms.gle/Qru7MF1z5pFcWK7VA
+[rsvp.buttonHref] /rsvp/
 
 
 # --- Sponsors
