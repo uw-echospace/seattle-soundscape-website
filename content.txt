@@ -1,6 +1,6 @@
 # --- Browser tab
 [meta.title] Greater Seattle Soundscape Monitoring Project
-[meta.description] A citizen science program designed to collect and analyze audio data for fauna in Seattle, WA. Supported by the University of Washington Student Technology Fee.
+[meta.description] A community science program designed to collect and analyze audio data for fauna in Seattle, WA. Supported by the University of Washington Student Technology Fee.
 
 
 # --- Top navigation bar
@@ -13,7 +13,7 @@
 
 # --- Hero
 [hero.headline] Explore Your *Local Soundscape*
-[hero.subhead] A citizen science lending program to monitor terrestrial animal vocalizations in the Greater Seattle Area and survey their populations.
+[hero.subhead] A community science lending program to monitor terrestrial animal vocalizations in the Greater Seattle Area and survey their populations.
 [hero.ctaPrimary] RSVP for a Session
 [hero.ctaSecondary] Learn More
 [hero.sponsorLine] Made possible by the UW Student Technology Fee.
@@ -39,7 +39,7 @@
 [how.imageCredit] Durham, Michael. “Little Brown Myotis (Myotis Lucifugus)” Bats Northwest. https://www.batsnorthwest.org/meet-washingtons-bats
 
 [how.step.1.title] Pick up your AudioMoth kit
-[how.step.1.body] Come to the start-up session to learn about the Greater Seattle Soundscape Monitoring Project, how to setup and deploy AudioMoth microphone units, and analysis tools we use!
+[how.step.1.body] Come to the onboarding session to learn about the Greater Seattle Soundscape Monitoring Project, how to setup and deploy [AudioMoth recorder units](https://www.openacousticdevices.info/audiomoth), and analysis tools we use!
 
 [how.step.2.title] Record and collect data
 [how.step.2.body] Send your AudioMoth out into the field, periodically retrieving data and replacing batteries during the recording period. You'll run an analysis using machine learning models to detect local species and generate insights about your location's soundscape.
@@ -49,7 +49,7 @@
 
 # --- Impact
 [mission.quote] The impact *your data* has on our environment.
-[mission.body.1.text] Passive acoustic monitoring, or PAM, uses continuously deployed microphones to collect audio data at a particular location. By enlisting the help of citizen scientists (like you!) to collect this data, the impact and breadth of projects like this one greatly increases.
+[mission.body.1.text] Passive acoustic monitoring, or PAM, uses continuously deployed recorders to collect audio data at a particular location. By enlisting the help of community scientists (like you!) to collect this data, the impact and breadth of projects like this one greatly increases.
 [mission.body.2.text] The collected recordings are crucial to maintaining an ongoing dataset used by scientists to track local population trends over time. Through extensive data collection, we learn more about how climate change, human development, and many other factors can affect biodiversity in our local soundscape.
 
 
@@ -108,7 +108,7 @@
 
 # --- Footer
 [footer.brand] Greater Seattle Soundscape Monitoring Project
-[footer.tagline] A citizen science program designed to collect and analyze audio data for fauna in Seattle, WA. Supported by the University of Washington Student Technology Fee.
+[footer.tagline] A community science program designed to collect and analyze audio data for fauna in Seattle, WA. Supported by the University of Washington Student Technology Fee.
 [footer.contactLabel] Contact
 [footer.contactLinkText] Echospace Group
 [footer.contactLinkHref] https://uw-echospace.github.io/

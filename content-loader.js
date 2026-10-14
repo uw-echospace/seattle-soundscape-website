@@ -34,7 +34,7 @@
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;");
   }
-  // "some *emphasized* text" -> <em>; "[link text](url)" -> <a href="url">
+
   function renderInline(value) {
     var html = escapeHtml(value);
     html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, function (match, text, url) {
@@ -68,11 +68,19 @@
       var items = groups[tpl.getAttribute("data-repeat")];
       if (!items || !items.length) return;
 
+      var slice = tpl.getAttribute("data-repeat-slice");
+      var list = items;
+      if (slice) {
+        var half = Math.ceil(items.length / 2);
+        list = slice === "1" ? items.slice(0, half) : items.slice(half);
+      }
+      if (!list.length) return;
+
       Array.prototype.slice.call(tpl.parentNode.children).forEach(function (child) {
         if (child !== tpl) child.remove();
       });
 
-      items.forEach(function (item, i) {
+      list.forEach(function (item, i) {
         var clone = tpl.content.cloneNode(true);
         applyIn(clone, function (field) { return item[field]; });
         clone.querySelectorAll("[data-auto-index]").forEach(function (el) {
@@ -95,7 +103,7 @@
 
   fetch("content.txt", { cache: "no-store" })
     .then(function (res) {
-      if (!res.ok) throw new Error("content.txt returned " + res.status);
+      if (!res.ok) throw new Error("Website content returned " + res.status);
       return res.text();
     })
     .then(function (text) {
@@ -103,7 +111,7 @@
     })
     .catch(function (err) {
       console.warn(
-        "[content-loader] Couldn't load content.txt. \n" +
+        "[content-loader] Couldn't load website content. \n" +
         "Original error:", err
       );
     });

@@ -23,9 +23,9 @@
         <span><b data-k="nav.orgName"></b><span data-k="nav.orgSub"></span></span>
       </a>
       <ul class="nav-links">
-        <li><a href="/access/" aria-current="page" data-k="nav.login"></a></li>
-        <li><a href="/results/" aria-current="page" data-k="nav.results"></a></li>
         <li><a href="#top" aria-current="page" data-k="nav.home"></a></li>
+        <li><a href="/results/" data-k="nav.results"></a></li>
+        <li><a href="/login/" data-k="nav.login"></a></li>
       </ul>
     </nav>
 
@@ -119,9 +119,16 @@
         <h2 id="faq-h" data-k="faq.heading"></h2>
       </div>
       <div class="faq">
-        <template data-repeat="faq">
-          <details><summary data-k="q"></summary><p data-k="a"></p></details>
-        </template>
+        <div class="faq-col">
+          <template data-repeat="faq" data-repeat-slice="1">
+            <details><summary data-k="q"></summary><p data-k="a"></p></details>
+          </template>
+        </div>
+        <div class="faq-col">
+          <template data-repeat="faq" data-repeat-slice="2">
+            <details><summary data-k="q"></summary><p data-k="a"></p></details>
+          </template>
+        </div>
       </div>
     </div>
   </section>
